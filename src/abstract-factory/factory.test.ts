@@ -1,4 +1,4 @@
-import { Factory, Factory1, Factory2 } from "./abstract-factory";
+import { Factory, Factory1, Factory2 } from "./factory";
 
 function createApplication(factory: Factory) {
   const productA = factory.createProductA();
